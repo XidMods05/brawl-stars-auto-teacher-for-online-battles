@@ -1,0 +1,1 @@
+Hello. It is simple battle auto-teacher for v41.

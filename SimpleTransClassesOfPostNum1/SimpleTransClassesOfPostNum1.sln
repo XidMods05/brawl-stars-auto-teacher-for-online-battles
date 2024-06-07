@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTransClassesOfPostNum1", "SimpleTransClassesOfPostNum1\SimpleTransClassesOfPostNum1.csproj", "{89947595-30D2-4352-9030-70F6BFE3738C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89947595-30D2-4352-9030-70F6BFE3738C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89947595-30D2-4352-9030-70F6BFE3738C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89947595-30D2-4352-9030-70F6BFE3738C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89947595-30D2-4352-9030-70F6BFE3738C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
