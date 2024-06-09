@@ -48,12 +48,7 @@ public class LogicMapLoader
         if (!isTileCords)
             return (LogicTileMap.LogicToTile(y) + 1) * _logicTileMap.MapWidth -
                 _logicTileMap.MapWidth + LogicTileMap.LogicToTile(x);
-
-        x = LogicTileMap.TileToLogic(x);
-        y = LogicTileMap.TileToLogic(y);
-
-        return (LogicTileMap.LogicToTile(y) + 1) * _logicTileMap.MapWidth -
-            _logicTileMap.MapWidth + LogicTileMap.LogicToTile(x);
+        return y * _logicTileMap.MapWidth + x;
     }
     
     public static LogicTileData TileCodeToTileData(char code)
