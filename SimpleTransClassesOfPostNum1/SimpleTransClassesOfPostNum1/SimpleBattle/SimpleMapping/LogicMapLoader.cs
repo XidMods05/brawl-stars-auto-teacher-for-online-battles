@@ -46,8 +46,7 @@ public class LogicMapLoader
     public int GetTileIndex(int x, int y, bool isTileCords)
     {
         if (!isTileCords)
-            return (LogicTileMap.LogicToTile(y) + 1) * _logicTileMap.MapWidth -
-                _logicTileMap.MapWidth + LogicTileMap.LogicToTile(x);
+            return LogicTileMap.LogicToTile(y) * _logicTileMap.MapWidth + LogicTileMap.LogicToTile(x);
         return y * _logicTileMap.MapWidth + x;
     }
     
